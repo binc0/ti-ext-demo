@@ -1,4 +1,4 @@
-<?php namespace Igniter\Demo;
+<?php namespace Binco\Demo;
 
 use System\Classes\BaseExtension;
 
@@ -7,10 +7,10 @@ class Extension extends BaseExtension
     public function registerComponents()
     {
         return [
-            'Igniter\Demo\Components\Block' => [
+            'Binco\Demo\Components\Block' => [
                 'code' => 'block',
-                'name' => 'lang:igniter.demo::default.text_component_title',
-                'description' => 'lang:igniter.demo::default.text_component_desc',
+                'name' => 'lang:binco.demo::default.text_component_title',
+                'description' => 'lang:binco.demo::default.text_component_desc',
             ],
         ];
     }
