@@ -1,8 +1,8 @@
 {
-  "code": "igniter.demo",
+  "code": "binco.demo",
   "name": "Demo Extension",
   "description": "Provides block component for demonstration",
   "version": "1.0.0",
-  "icon": "fa-plug",
-  "author": "SamPoyigi"
+  "icon": "fa-stripe",
+  "author": "Binco"
 }
