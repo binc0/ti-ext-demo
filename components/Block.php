@@ -1,4 +1,4 @@
-<?php namespace Igniter\Demo\Components;
+<?php namespace Binco\Demo\Components;
 
 use System\Classes\BaseComponent;
 
