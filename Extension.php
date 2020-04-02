@@ -1,17 +1,25 @@
 <?php namespace Binco\Demo;
 
-use System\Classes\BaseExtension;
-
-class Extension extends BaseExtension
+class Extension extends \System\Classes\BaseExtension
 {
-    public function registerComponents()
+    public function extensionMeta()
     {
         return [
-            'Binco\Demo\Components\Block' => [
-                'code' => 'block',
-                'name' => 'lang:binco.demo::default.text_component_title',
-                'description' => 'lang:binco.demo::default.text_component_desc',
-            ],
+            'name' => 'Demo binco',
+            'author' => 'The extension author name',
+            'description' => 'The extension description',
+            'icon' => 'fa-puzzle-piece',
+            'version' => '0.0.1-beta3'
         ];
+    }
+    
+    public function register()
+    {
+        
+    }
+
+    public function boot()
+    {
+        
     }
 }
